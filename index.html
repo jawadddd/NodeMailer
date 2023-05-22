@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        margin:0;
+        padding:0;
+    }
+    .first{
+        display: flex;
+        width:100vw;
+        height:100vh;
+        margin:0;
+        padding:0;
+        align-items: center;
+        justify-content: center;
+    }
+    form{
+        width:30vw;
+        background-color: rgb(188, 184, 184);
+        border-radius: 30px;
+        padding:10px;
+        display: block;
+        align-items: center;
+    }
+    input{
+        margin:3px;
+width:90%;
+padding:5px;
+height:10%;
+    }
+    textarea{
+        width:90.7%;
+        margin: 3px;
+padding:5px;
+height:10%;
+
+    }
+.last{
+    height:auto;
+    width:auto;
+    }
+
+</style>
+</head>
+<body>
+    <div class="first">
+            <form action="/sendMail" method="post">
+                <h1>Drop Your Message Here!</h1>
+                <div class="one"><input type="text" placeholder="FullName" name="name"></div>
+                <div class="two"><input type="text" placeholder="Email Address" name="email"></div>
+                <div class="three"><input type="text" placeholder="Subject" name="subject"></div>
+                <div class="four" ><textarea name="msg">How can I help you?</textarea></div>
+                <input  class="last" type="submit" value="Send Message">
+            </form>
+        </div>
+</body>
+</html>
