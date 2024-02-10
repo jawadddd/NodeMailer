@@ -6,7 +6,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 var nodemailer = require('nodemailer');
 
 app.get('/',function(req,response){
-response.sendFile('D:/University Semesters/6th Sem/web Programming/activities/nodeMailer nodejsActivity/index.html');
+response.sendFile('D:/University Semesters/6th Sem/web Programming/activities/nodeJs Activity2/nodeMailer nodejsActivity/with nodeJs,With frontEnd(html)/NodeMailer/index.html');
 });
     
 app.post('/sendMail',function(req,response){
@@ -24,9 +24,7 @@ var transporter = nodemailer.createTransport({
         user: 'jawadhaider682@gmail.com',//add here your mail
         pass: 'hhvytvawppihugqt'//add here your gmail app pass
         },
-     logger: true,
-      debug: true,
-      secureConnection: false,
+    
     secure: true,
     });
     var mailOptions={
