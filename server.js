@@ -20,10 +20,13 @@ const msgIs=req.body.msg;
 var transporter = nodemailer.createTransport({
     port: 465,
     host:"smtp.gmail.com",
-    auth: {
-    user: 'jawadhaider682@gmail.com',
-    pass: 'tfphhecamcfrxcew'
-    },
+      auth: {
+        user: 'jawadhaider682@gmail.com',//add here your mail
+        pass: 'hhvytvawppihugqt'//add here your gmail app pass
+        },
+     logger: true,
+      debug: true,
+      secureConnection: false,
     secure: true,
     });
     var mailOptions={
