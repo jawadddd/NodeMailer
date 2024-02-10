@@ -1,3 +1,4 @@
+///////////node mailer with separate html file
 var express=require('express');
 var app=express();
 var bodyParser=require("body-parser");
@@ -9,6 +10,7 @@ response.sendFile('D:/University Semesters/6th Sem/web Programming/activities/no
 });
     
 app.post('/sendMail',function(req,response){
+    console.log("reached");
 const nameIs=req.body.name;
 const emailIs=req.body.email;
 const subjectIs=req.body.subject;
