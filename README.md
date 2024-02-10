@@ -1,5 +1,6 @@
 # NodeMailer
-Website having front end in html and express js backend where user give his/her Name,gmailId,subject ,messageToSend and GmailId of receiver and that message will be sent automatically without using gmail app.  
+Website having front end in html and express js backend. User give his/her UserName, gmailId of Receiver, Subject and messageToSend and that message is sent automatically 
+ to Receiver's mail without using Gmail app.  
 ## Two Independent Layers:  
-### 1)Html, FrontEnd.  
-### 2)Node Express js , BackEnd.
+ 1)Html, FrontEnd.  
+ 2)NodeJS ExpressJS , BackEnd.
